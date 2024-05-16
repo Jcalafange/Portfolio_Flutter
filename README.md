@@ -1,16 +1,3 @@
 # portifolio_flutter
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Este projeto foi desenvolvido para servir como uma vitrine digital dos meus projetos pessoais e profissionais. Através deste portfólio, é possível conhecer mais sobre minha trajetória, ver exemplos dos meus trabalhos e entrar em contato comigo.
