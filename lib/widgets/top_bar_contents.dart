@@ -83,13 +83,11 @@ class DesktopTabBar extends StatelessWidget {
             const SizedBox(width: 24),
             menuItem(toPage: 1, title: 'Sobre'),
             const SizedBox(width: 24),
-            menuItem(toPage: 2, title: 'Meus Projetos'),
+            menuItem(toPage: 2, title: 'Experiências'),
             const SizedBox(width: 24),
-            menuItem(toPage: 3, title: 'Educação'),
+            menuItem(toPage: 3, title: 'Linguagens'),
             const SizedBox(width: 24),
-            menuItem(toPage: 4, title: 'Linguagens'),
-            const SizedBox(width: 24),
-            menuItem(toPage: 5, title: 'Contato')
+            menuItem(toPage: 4, title: 'Contato')
           ],
         ),
       ),

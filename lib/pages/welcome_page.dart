@@ -18,12 +18,14 @@ class _WelcomePageState extends State<WelcomePage> {
     Colors.cyan,
     Colors.brown,
   ];
+  
   @override
   Widget build(BuildContext context) => ScreenHelper(
         desktop: _buildUi(desktopMaxWidth),
         tablet: _buildUi(tabletMaxWidth),
         mobile: _buildUi(ScreenHelper.mobileMaxWidth(context)),
       );
+
   _buildUi(double width) => Container(
         height: MediaQuery.of(context).size.height,
         child: Center(
@@ -128,15 +130,54 @@ class _WelcomePageState extends State<WelcomePage> {
                     const SizedBox(width: 40),
                     Expanded(
                       flex: ScreenHelper.isMobile(context) ? 0 : 3,
-                      child: Container(
-                        height: 400,
-                        decoration: const BoxDecoration(
-                          shape: BoxShape.circle,
-                          image: DecorationImage(
-                            image: AssetImage("assets/perfil.jpg"),
-                            fit: BoxFit.cover,
+                      child: Column(
+                        children: [
+                          Container(
+                            height: 200, // Redimensionando a imagem do perfil
+                            width: 200,
+                            decoration: const BoxDecoration(
+                              shape: BoxShape.circle,
+                              image: DecorationImage(
+                                image: AssetImage("assets/perfil.jpg"),
+                                fit: BoxFit.cover,
+                              ),
+                            ),
                           ),
-                        ),
+                          const SizedBox(height: 20),
+                          Card(
+                            color: Colors.black.withOpacity(0.5),
+                            margin: const EdgeInsets.symmetric(horizontal: 16),
+                            child: Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.start,
+                                children: const [
+                                  Text(
+                                    'João Vitor Calafange de Carvalho Lopes',
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Text(
+                                    '20 anos', // Exemplo de idade
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                  Text(
+                                    'Natal, RN', // Exemplo de cidade
+                                    style: TextStyle(
+                                      fontSize: 20,
+                                      color: Colors.white,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
                       ),
                     )
                   ],

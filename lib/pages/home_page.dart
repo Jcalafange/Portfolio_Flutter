@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 
 import 'about_page.dart';
+import 'welcome_page.dart';
+import 'experience_page.dart';
 // import 'package:portiflo_flutter/pages/education_page.dart';
 // import 'package:portiflo_flutter/pages/footer_page.dart';
-// import 'package:portiflo_flutter/pages/projects_page.dart';
 // import 'package:portiflo_flutter/pages/skill_page.dart';
-import 'welcome_page.dart';
 // import 'package:portiflo_flutter/utils/globals.dart';
+
 import '../widgets/drawer_widget.dart';
 import '../widgets/top_bar_contents.dart';
 import 'package:scrollable_positioned_list/scrollable_positioned_list.dart';
@@ -22,7 +23,7 @@ class _HomePageState extends State<HomePage> {
   List<Widget> pages = [
     const WelcomePage(),
     const AboutPage(),
-    // const ProjectsPage(),
+    const ExperiencePage(),
     // const EducationPage(),
     // const SkillPage(),
     // const FooterPage(),
