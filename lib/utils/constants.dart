@@ -18,6 +18,28 @@ const aboutFirst =
 const aboutSecond =
     'Atualmente, estou cursando Bacharelado de Tecnologia da Informação na Universidade Federal do Rio Grnade do Norte, e desde janeiro de 2023 estou estagiando na DATACOM, trabalhando em projetos que utilizam principalmente Flutter e Vue.js.\n\n';
 
+List<Map<String, dynamic>> projects = [
+  {
+    'name': 'CookUP',
+    'desc': 'CookUP é um aplicativo produzido para desenvolver suas habilidades culinarias enquanto se divertem com um sistema de gamificação personalizado',
+    'image': 'assets/cookupshowcase.png', 
+    'githubUrl': 'https://github.com/Pablo1Gustavo/cookup',
+  },
+  {
+    'name': 'CookUP',
+    'desc': 'CookUP é um aplicativo produzido para desenvolver suas habilidades culinarias enquanto se divertem com um sistema de gamificação personalizado',
+    'image': 'assets/cookupshowcase.png',
+    'githubUrl': 'https://github.com/Pablo1Gustavo/cookup',
+  },
+  {
+    'name': 'CookUP',
+    'desc': 'CookUP é um aplicativo produzido para desenvolver suas habilidades culinarias enquanto se divertem com um sistema de gamificação personalizado',
+    'image': 'assets/cookupshowcase.png',
+    'githubUrl': 'https://github.com/Pablo1Gustavo/cookup',
+  },
+
+];
+
   final List<Map<String, String>> professionalExperiences = const [
     {
       'title': 'Desenvolvedor Front-End',
